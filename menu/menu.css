@@ -38,7 +38,7 @@ header {
 }
 
 header img {
-    width: 10rem ;
+    width: 10rem;
     height: 10rem;
 }
 
@@ -83,11 +83,11 @@ header ul li a {
     min-height: 120vh;
     display: flex;
     align-items: center;
-    background-image: url(imagens/pexels-on-shot-2788792.jpg);
+    background-image: url(../imagens/pexels-on-shot-2788792.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+
 }
 
 .home .conteudo {
@@ -280,7 +280,7 @@ header ul li a {
 }
 
 .ambiente .box-container .box {
-    
+
     margin-bottom: 20px;
 }
 
