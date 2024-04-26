@@ -18,7 +18,8 @@ body {
     outline: none;
     border: none;
     text-decoration: none;
-    transition: .2s linear;
+    animation: none;
+
 
 }
 
@@ -33,6 +34,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    position: absolute;
 }
 
 header img {
@@ -114,11 +116,6 @@ header ul li a {
     cursor: pointer;
 }
 
-.btn:hover {
-    letter-spacing: .1rem;
-    background-color: var(--main-color);
-}
-
 .sobre .conteudo2 {
     width: 80%;
     margin: auto;
@@ -133,11 +130,11 @@ header ul li a {
     width: 100%;
     height: 400px;
     margin-right: 1rem;
-
 }
 
 .foto_sobre img {
     width: 100%;
+    border-radius: 20px;
 }
 
 .sobre .conteudo2 .texto_sobre p {
@@ -181,6 +178,8 @@ header ul li a {
     padding: 5rem;
     text-align: center;
     border: var(--border);
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -275,24 +274,21 @@ header ul li a {
 }
 
 .ambiente .box-container .box {
-    border: var(--border);
+    
     margin-bottom: 20px;
 }
 
 .ambiente .box-container .box .image {
-    height: 25rem;
-    overflow: hidden;
+    height: 100%;
     width: 100%;
 }
 
 .ambiente .box-container .box .image img {
+    object-fit: cover;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-}
-
-.ambiente .box-container .box:hover .image img {
-    transform: scale(1.2);
+    border-radius: 18px;
+    border: var(--border);
 }
 
 .footer {
@@ -366,6 +362,7 @@ html {
     }
 
     .menu_promocoes .box_container {
+        animation: none;
         display: block;
     }
 
@@ -383,5 +380,19 @@ html {
         font-size: 20px;
     }
 
+}
 
+.mapa-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 75%;
+}
+
+.mapa-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
