@@ -43,7 +43,7 @@ header .navbar a:hover{
     padding-bottom: .5rem;
 }
 .home{
-    min-height: 100vh;
+    min-height: 120vh;
     display: flex;
     align-items: center;
     background-image: url("imagens/pexels-felipe-vieira-20066366.jpg");
@@ -54,6 +54,7 @@ header .navbar a:hover{
 .home .conteudo {
     max-width: 60rem;
     padding-left: 2rem;
+    top: 100px;
 }
 .home .conteudo h3{
     font-size: 6rem;
@@ -88,6 +89,7 @@ header .navbar a:hover{
 }
 .foto_sobre img{
     border-radius: 10px;
+    width: 600px;
 }
 .sobre .conteudo2 .textoOne p{
     font-size: 1.2rem;
@@ -195,5 +197,9 @@ html{
     }
     .textoOne .btn{
         margin-right: 4%;
+    }
+    .foto_sobre img{
+        border-radius: 10px;
+        width:100%;
     }
 }
