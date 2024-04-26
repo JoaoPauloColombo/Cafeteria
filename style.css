@@ -86,24 +86,29 @@ header ul li a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 }
 
 .home .conteudo {
     max-width: 60rem;
     padding-left: 2rem;
+    position: relative;
+    top: 60px;
 }
 
 .home .conteudo h3 {
     font-size: 6rem;
-    color: wheat
+    color: wheat;
+    -webkit-text-stroke: 6px rgb(0, 0, 0);
 }
 
 .home .conteudo p {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: lighter;
-    line-height: 1.8;
+    line-height: 2.0;
     padding: 1rem;
     color: wheat;
+
 }
 
 .btn {
