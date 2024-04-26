@@ -38,7 +38,11 @@ header {
 }
 
 header img {
-    height: 6rem;
+    width: 10rem ;
+    height: 10rem;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
 }
 
 header .navbar a {

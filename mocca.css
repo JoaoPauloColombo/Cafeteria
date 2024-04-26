@@ -28,8 +28,10 @@ header{
     position: fixed;
     top: 0; left: 0; right: 0;
 }
-header img{
-    height: 6rem;
+header img {
+    width: 10rem ;
+    height: 10rem;
+    
 }
 header .navbar a{
     margin: 1rem;
