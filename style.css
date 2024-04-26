@@ -79,7 +79,7 @@ header ul li a {
 }
 
 .home {
-    min-height: 100vh;
+    min-height: 120vh;
     display: flex;
     align-items: center;
     background-image: url(imagens/pexels-on-shot-2788792.jpg);
