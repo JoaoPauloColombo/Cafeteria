@@ -99,6 +99,7 @@ header ul li a {
 .home .conteudo h3 {
     font-size: 4rem;
     color: wheat;
+    -webkit-text-stroke: 3px rgb(0, 0, 0);
 }
 
 .home .conteudo p {
